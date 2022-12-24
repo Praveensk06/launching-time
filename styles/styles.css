@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+
+*,
+*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+:root{
+--Grayish-blue: hsl(237, 18%, 59%);
+--Soft-red: hsl(345, 95%, 68%);
+--White: hsl(0, 0%, 100%);
+--Dark-desaturated-blue: hsl(236, 21%, 26%);
+--Very-dark-blue: hsl(235, 16%, 14%);
+--Very-dark-black-blue: hsl(234, 17%, 12%);
+
+ 
+
+
+  
+}
+img{
+  width: 100%;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style:none;
+}
+
+
+
+
+
+body{
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 14px;
+  
+  
+  
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+.timer-container{
+  position: absolute;
+  top: 5px;
+  bottom: 10px;
+  margin-top: 8rem;
+}
+
+.countdown{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  gap: 1rem;
+}
+
+.countdown h2{
+  background-color: rgb(34, 158, 158);
+  padding: 1rem;
+}
+
+
+
+.icons{
+  width: 100px;
+  display: flex;
+  margin-top: 5rem;
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  
+  
+
+
+
+}
